@@ -2,7 +2,10 @@ body {
 background-color: rgb(255, 255, 255);
 margin: 0;
 padding: 0px;
+}
 
+img {
+    width: 100%;
 }
 
 .padleft{
@@ -13,6 +16,14 @@ padding: 0px;
 .padright{
     padding-right: 20px;
    
+}
+
+.bottomgap{
+    padding-bottom: 3vw;
+}
+
+.topgap{
+    padding-top: 3vw;
 }
 
 .padtopH{
@@ -36,8 +47,6 @@ padding: 0px;
     background-image: url("horizon.gif");
     background-size:1000px;
     transition: 1s;
-    gap: 40px;
-    padding: 20px;
     
 
 }
@@ -84,12 +93,11 @@ padding: 0px;
     color: transparent;
     -webkit-background-clip: text;
     text-transform: uppercase;
-    font-size: 19vw;
+    font-size: 17vw;
     font-family: "panno-text", sans-serif;
-    line-height: 10vw;
+    line-height: 12vw;
     font-weight: 700;
     font-style: normal;
-    line-height: 10vw;
     
 }
 
@@ -149,6 +157,19 @@ padding: 0px;
     flex-wrap: wrap;
 }
 
+.marginauto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.marginleft{
+    margin-left: auto;
+}
+
+.marginright{
+    margin-right: auto;
+}
+
 .width20 {
     width: 20%;
 }
@@ -205,6 +226,10 @@ padding: 0px;
 
 }
 
+.flexbox {
+    display: flex;
+}
+
 .center-text-container{
     width: 90vw;
     margin: 0 auto;
@@ -243,7 +268,10 @@ padding: 0px;
 
 }
 
+.image2{
+    background-image: url("Intangible_Grid.gif");
 
+}
 
 .text-box h2 {
     font-size: 60px;
