@@ -22,12 +22,20 @@ img {
     padding-bottom: 2vw;
 }
 
-.topgap{
-    padding-top: 10vw;
+.bottomgapquote{
+    padding-bottom: 4vw;
+}
+
+.blob1topgap{
+    padding-top: 13.5vw;
+}
+
+.blob2topgap{
+    padding-top: 6.5vw;
 }
 
 .topgap5{
-    padding-top: 2vw;
+    padding-top: 1.75vw;
 }
 
 .padtopH{
@@ -152,6 +160,17 @@ img {
 
 }
 
+.mediumtext2{
+    font-family: "futura-pt", sans-serif;
+    font-style: normal;
+    padding-right: 2vw;
+    font-size: 1.5vw;
+    white-space: normal;
+    color: rgb(255, 255, 255);
+    
+
+}
+
 .bodytext{
     font-family: "futura-pt", sans-serif;
     font-weight: 400;
@@ -234,9 +253,47 @@ img {
 
 }
 
-.flexbox {
+.flexbox1 {
     display: flex;
     background-color:rgb(250, 250, 250)
+}
+
+.flexbox2 {
+    display: flex;
+    background-image: url("3D_Grid.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+}
+
+.textbox-container {
+    display: flex;
+    background-image: url("3D_Grid.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    flex-direction: row;
+    gap: 30px;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+}
+
+.textbox {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.card{
+    background-color: rgba(132, 132, 132, 0.5);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    margin: 20px;
+    height: 40vw;
+    width: 27vw;
+}
+
+.eyeball {
+    margin-top: 6vw;
 }
 
 .center-text-container{
