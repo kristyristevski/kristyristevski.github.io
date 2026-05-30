@@ -22,16 +22,30 @@ img {
     padding-bottom: 2vw;
 }
 
+.mainheadingbottomgap{
+    padding-bottom: 5vw;
+}
+
 .bottomgapquote{
     padding-bottom: 4vw;
 }
 
 .blob1topgap{
-    padding-top: 13.5vw;
+    padding-top: 15vw;
 }
 
 .blob2topgap{
-    padding-top: 6.5vw;
+   padding-top: 3vw;
+}
+
+.blob4gap{
+    padding-top: 12vw;
+    padding-bottom: 2vw;
+}
+
+.borderimg{
+    img{ border: 3px solid black;
+    }
 }
 
 .topgap5{
@@ -51,6 +65,10 @@ img {
     background-image: url("pattern.png");
     background-size:100px;
     transition: 1s;
+}
+
+.bodytoppad2{
+    padding-top: 25vw;
 }
 
 .grid:hover {
@@ -97,7 +115,9 @@ img {
     padding-left: 3vw;
 }
     
-
+.topgapquote{
+    padding-top:6vw;
+}
 
 *{
     outline: 1px solid rgba(239, 11, 11, 0);
@@ -109,13 +129,14 @@ img {
     color: transparent;
     -webkit-background-clip: text;
     text-transform: uppercase;
-    font-size: 17vw;
+    font-size: 20vw;
     font-family: "panno-text", sans-serif;
-    line-height: 12vw;
+    line-height: 15vw;
     font-weight: 700;
     font-style: normal;
     
 }
+
 
 .reimagined {
     background-color: rgb(255, 255, 255);
@@ -136,6 +157,10 @@ img {
     line-height: 9vw;
     
 }
+
+.firstbodypad{
+    padding-left: 0.5vw;
+}
     
 
 .largetext{
@@ -144,7 +169,19 @@ img {
     padding-bottom: 1vw;
     font-style: normal;
     line-height: 6.5vw;
-    font-size: 8.5vw;
+    font-size: 7.7vw;
+    -webkit-text-fill-color: rgb(0, 0, 0);
+    -webkit-text-stroke: 0.04vw rgba(255, 255, 255, 0);
+
+}
+
+.largetext2{
+    font-family: "panno-text", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    padding-bottom: 1.85vw;
+    line-height: 6.5vw;
+    font-size: 11.5vw;
     -webkit-text-fill-color: rgb(0, 0, 0);
     -webkit-text-stroke: 0.04vw rgba(255, 255, 255, 0);
 
@@ -154,7 +191,7 @@ img {
     font-family: "panno-text", sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 2.5vw;
+    font-size: 2vw;
     white-space: normal;
     
 
@@ -173,10 +210,8 @@ img {
 
 .bodytext{
     font-family: "futura-pt", sans-serif;
-    font-weight: 400;
     font-style: normal;
-    font-size: 1.65vw;
-    
+    font-size: 1.2vw;
 }
 
 .container {
@@ -244,7 +279,7 @@ img {
     align-items: flex-start;
     gap: 40px;
     padding: 20px;
-    background-size:cover;
+    background-size:5vwpx;
     background-position: center;
     background-repeat: no-repeat;
     background-image: url("Disappearing_Grid.jpg");
