@@ -4,6 +4,20 @@ margin: 0;
 padding: 0px;
 }
 
+.new-section {
+    background-color: rgb(203, 119, 119);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.nav-line{
+    width: 85%;
+    border:none;
+    border-top: 0.04vw solid rgb(164, 164, 164);
+}
+
 .back{
     background-color: grey;
     padding: 50px;
@@ -282,14 +296,12 @@ img {
 .grey-section {
     display: flex;
     align-items: flex-start;
-    gap: 40px;
+    box-sizing: border-box;
     padding: 20px;
-    background-size:5vwpx;
-    background-position: center;
+    background-size: 50vw 50vw;
+    background-position: cover;
     background-repeat: no-repeat;
     background-image: url("Disappearing_Grid.jpg");
-    margin-top: 20px;
-    margin-bottom: 20px;
 
 }
 
@@ -367,11 +379,10 @@ img {
 }
 
 .main-image {
-    width: 41%;
+    width: 40%;
     height: auto;
     padding-top: 1vw;
     padding-bottom: 1vw;
-
 }
 
 .image2{
