@@ -46,7 +46,7 @@ img {
 }
 
 .bottomgapquote{
-    padding-bottom: 4vw;
+    padding-bottom: 8vw;
 }
 
 .blob1topgap{
@@ -102,6 +102,12 @@ img {
     transition: 1s;
     
 
+}
+
+.top-row{
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
 }
 
 .grid2:hover {
@@ -183,6 +189,7 @@ img {
     
 
 .largetext{
+    display: flex-start;
     font-family: "panno-text", sans-serif;
     font-weight: 700;
     padding-bottom: 1vw;
@@ -219,10 +226,12 @@ img {
 .mediumtext2{
     font-family: "futura-pt", sans-serif;
     font-style: normal;
-    padding-right: 2vw;
+    text-align: center;
+    padding-right: 4vw;
+    padding-left: 4vw;
     font-size: 1.5vw;
     white-space: normal;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     
 
 }
@@ -294,15 +303,29 @@ img {
 }
 
 .grey-section {
-    display: flex;
-    align-items: flex-start;
     box-sizing: border-box;
     padding: 20px;
-    background-size: 50vw 50vw;
+    background-size: 100vw 39vw;
     background-position: cover;
     background-repeat: no-repeat;
     background-image: url("Disappearing_Grid.jpg");
 
+}
+
+.monument-row{
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.top.row{
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.title-block{
+    width: 55%;
 }
 
 .flexbox1 {
@@ -320,28 +343,34 @@ img {
 
 .textbox-container {
     display: flex;
+    box-sizing: border-box;
+    padding: 20px;
     background-image: url("3D_Grid.jpg");
-    background-size: cover;
+    background-size: 100vw;
     background-position: center;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     flex-direction: row;
-    gap: 30px;
     align-items: flex-start;
     flex-wrap: nowrap;
+    text-align: middle; 
 }
 
 .textbox {
     flex: 1;
+    text-align: middle;
     padding: 20px;
     box-sizing: border-box;
 }
 
 .card{
-    background-color: rgba(132, 132, 132, 0.5);
+    background-color: rgba(175, 175, 175, 0.762);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
     margin: 20px;
     height: 40vw;
     width: 27vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 3vw;
 }
 
 .eyeball {
