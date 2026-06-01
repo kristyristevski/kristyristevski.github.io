@@ -46,7 +46,7 @@ img {
 }
 
 .bottomgapquote{
-    padding-bottom: 8vw;
+    padding-bottom: 5.5vw;
 }
 
 .blob1topgap{
@@ -76,7 +76,8 @@ img {
 }
 
 .paddingtop2{
-    padding-top: 2vw
+    padding-top: 2vw;
+    padding-left: 2vw;
 }
 
 .grid {
@@ -108,6 +109,50 @@ img {
     display: flex;
     align-items: flex-start;
     gap: 40px;
+    
+}
+
+.top-row2{
+    display: flex;
+    align-items: flex-start;
+    
+}
+
+
+
+.critique-text {
+    width: 55%;
+}
+
+.critique-heading-small {
+    font-size: 90px;
+    font-weight: bold;
+    line-height: 0.9;
+    padding-right: 2vw;
+}
+
+.critique-heading-large {
+    font-size: 130px;
+    font-weight: bold;
+    line-height: 0.9;
+}
+
+.critique-body {
+    width: 70%;
+    margin-top: 40px;
+}
+
+.critique-image {
+    width: 50%;
+    height: auto;
+    padding-right: 2vw;
+    padding-bottom: 2vw;
+}
+
+.main-image {
+    width: 42%;
+    height: auto;
+    padding-top: 1vw;
 }
 
 .grid2:hover {
@@ -213,6 +258,33 @@ img {
 
 }
 
+.largetext4{
+    font-family: "panno-text", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    padding-bottom: 1vw;
+    line-height: 6.5vw;
+    font-size: 8.3vw;
+    -webkit-text-fill-color: rgb(0, 0, 0);
+    -webkit-text-stroke: 0.04vw rgba(255, 255, 255, 0);
+
+}
+
+.largetext3{
+    display: flex-start;
+    font-family: "panno-text", sans-serif;
+    font-weight: 700;
+    padding-bottom: 1vw;
+    padding-left: 0.8vw;
+    font-style: normal;
+    line-height: 4vw;
+    font-size: 7vw;
+    -webkit-text-fill-color: rgb(0, 0, 0);
+    -webkit-text-stroke: 0.04vw rgba(255, 255, 255, 0);
+
+}
+
+
 .mediumtext{
     font-family: "panno-text", sans-serif;
     font-weight: 600;
@@ -240,6 +312,13 @@ img {
     font-family: "futura-pt", sans-serif;
     font-style: normal;
     font-size: 1.2vw;
+}
+
+.bodytext2{
+    font-family: "futura-pt", sans-serif;
+    font-style: normal;
+    font-size: 1.2vw;
+    padding-bottom: 3vw;
 }
 
 .container {
@@ -304,12 +383,24 @@ img {
 
 .grey-section {
     box-sizing: border-box;
-    padding: 20px;
+    padding-top: 2vw;
     background-size: 100vw 39vw;
     background-position: cover;
     background-repeat: no-repeat;
     background-image: url("Disappearing_Grid.jpg");
 
+}
+
+.critique-section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-image: url("Disappearing_Grid2.jpg");
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: 100vw 39vw;
+    padding-top: 5vw;
+    padding-left: 5vw;
 }
 
 .monument-row{
@@ -407,7 +498,9 @@ img {
     margin-bottom: 20px;
 }
 
-.main-image {
+
+
+.main-image2 {
     width: 40%;
     height: auto;
     padding-top: 1vw;
@@ -456,4 +549,98 @@ div.grid {
 div.grid:hover {
     background-size:300px;
     transition: 1s;
+}
+
+.marilyn-section {
+    padding: 60px 0;
+    background-color: white;
+}
+
+.marilyn-row {
+    width: 95%;
+    margin: 0 auto;
+    padding: 25px 0;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 2vw;
+}
+
+.marilyn-img {
+    width: 12%;
+    height: auto;
+}
+
+.caption {
+    text-align: center;
+    font-size: 14px;
+    margin: 15px 0 45px 0;
+}
+
+.what-now-box {
+    width: 50%;
+    margin: 0 auto;
+    background-color:rgb(200, 200, 200);
+    padding: 30px 55px 60px 55px;
+    box-sizing: border-box;
+}
+
+.what-now-box h1 {
+    text-align: center;
+    font-size: 10vw;
+    margin: 0 0 20px 0;
+    letter-spacing: 2px;
+    font-family: "panno-text", sans-serif;
+    font-weight: 600;
+    line-height: 7.2vw;
+    font-style: normal;
+    white-space: normal;
+
+}
+
+.text-columns {
+    display: flex;
+    gap: 45px;
+    align-items: flex-start;
+    font-family: "futura-pt", sans-serif;
+    font-style: normal;
+    font-size: 1.2vw;
+
+}
+
+.text-columns p {
+    width: 50%;
+    margin: 0;
+    line-height: 1.25;
+    text-align: center;
+        font-family: "futura-pt", sans-serif;
+    font-style: normal;
+    font-size: 1.2vw;
+}
+
+.footer {
+    background-color: #d9d9d9;
+    padding: 60px 20px;
+    margin-top: 80px;
+}
+
+.footer-content {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer-content h2 {
+    font-family: "panno-text", sans-serif;
+    font-size: 3vw;
+    margin-bottom: 20px;
+    line-height: 1;
+}
+
+.footer-content p {
+    font-family: "panno-text", sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 10px 0;
 }
